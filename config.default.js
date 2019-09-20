@@ -177,7 +177,7 @@ module.exports = {
     subprocessTimeout: 300,
 
     // readOnly: if readOnly is true, components of writing are not visible.
-    readOnly: process.env.ME_CONFIG_OPTIONS_READONLY || false,
+    readOnly: process.env.ME_CONFIG_OPTIONS_READONLY || true,
 
     // collapsibleJSON: if set to true, jsons will be displayed collapsible
     collapsibleJSON: true,
@@ -195,10 +195,10 @@ module.exports = {
 
     // confirmDelete: if confirmDelete is set to 'true', a modal for confirming deletion is
     // displayed before deleting a document/collection
-    confirmDelete: false,
+    confirmDelete: true,
 
     // noExport: if noExport is set to true, we won't show export buttons
-    noExport: false,
+    noExport: true,
   },
 
   // Specify the default keyname that should be picked from a document to display in collections list.
