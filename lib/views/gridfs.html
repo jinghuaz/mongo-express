@@ -56,9 +56,9 @@
               <div class="col-md-1">
                 <form method="POST" action="{{ dbUrl }}/gridFS/{{ bucketName }}/{{ file._id | json | safe | url_encode }}">
                 <input type="hidden" name="_method" value="delete">
-                <button type="submit" class="btn btn-danger">
-                <span class="glyphicon glyphicon-trash"></span>
-                </button>
+                <!--<button type="submit" class="btn btn-danger">-->
+                <!--<span class="glyphicon glyphicon-trash"></span>-->
+                <!--</button>-->
                 </form>
               </div>
             </td>
@@ -97,10 +97,10 @@
         <input type="file" class="input-medium span7" name="filefield">
       </div>
 
-      <button type="submit" class="btn btn-success pull-right">
-        <span class="glyphicon glyphicon-upload"></span>
-        Upload
-      </button>
+      <!--<button type="submit" class="btn btn-success pull-right">-->
+        <!--<span class="glyphicon glyphicon-upload"></span>-->
+        <!--Upload-->
+      <!--</button>-->
     </form>
   </div>
 </div>
