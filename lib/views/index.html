@@ -25,10 +25,10 @@
       <div class="input-group">
         <input class="form-control" type="text" id="database" name="database" placeholder="Database Name" title="Database Name">
         <span class="input-group-btn">
-          <button type="submit" class="btn btn-primary pull-right">
-            <span class="glyphicon glyphicon-plus"></span>
-            Create Database
-          </button>
+          <!--<button type="submit" class="btn btn-primary pull-right">-->
+            <!--<span class="glyphicon glyphicon-plus"></span>-->
+            <!--Create Database-->
+          <!--</button>-->
         </span>
       </div>
     </form>
@@ -49,9 +49,9 @@
       <form method="POST" action="{{ baseHref }}{{ db | url_encode }}" style="margin: 0px;">
         <input type="hidden" name="_method" value="delete">
         <button type="submit" class="hidden"></button>
-        <button type="button" class="btn btn-danger btn-block deleteButton" database-name="{{ db }}" >
-          <span class="glyphicon glyphicon-trash"></span><br>Del
-        </button>
+        <!--<button type="button" class="btn btn-danger btn-block deleteButton" database-name="{{ db }}" >-->
+          <!--<span class="glyphicon glyphicon-trash"></span><br>Del-->
+        <!--</button>-->
       </form>
     </td>
     {% endif %}
@@ -66,8 +66,8 @@
     <div class="modal-content">
 
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Delete database</h4>
+        <!--<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>-->
+        <!--<h4 class="modal-title" id="myModalLabel">Delete database</h4>-->
       </div>
 
       <div class="modal-body">
@@ -81,7 +81,7 @@
       </div>
 
       <div class="modal-footer">
-        <button type="button" data-dismiss="modal" class="btn btn btn-danger" id="delete">Delete</button>
+        <!--<button type="button" data-dismiss="modal" class="btn btn btn-danger" id="delete">Delete</button>-->
         <button type="button" data-dismiss="modal" class="btn">Cancel</button>
       </div>
     </div>
